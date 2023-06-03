@@ -27,6 +27,16 @@ const App = () => {
   // Array of projects
   const projects = [
     {
+      title: 'Swolog: Fitness Tracker and Workout Log',
+      description: 'Swolog is a web application that serves as a fitness tracker and workout log.\
+       Users can create an account and log their workouts, view their previous workout history, and\
+        track their progress for different exercises using interactive charts.',
+      projectLink: 'https://swolog.fly.dev/',
+      demoLink: 'https://youtu.be/h45__GEFry0',
+      sourceCodeLink: 'https://github.com/jasonramirez0/Swolog',
+      image: swologDashboardImage
+    },
+    {
       title: 'Turtlebot 2i Autonomous Navigation And Manipulation',
       description: 'Our project was to develop the autonomous navigation and manipulation features\
                      on the TurtleBot 2i. The task of this project can be divided into two parts. \
@@ -39,16 +49,6 @@ const App = () => {
       demoLink: 'https://turtlebot2i.weebly.com/results--demo.html',
       sourceCodeLink: 'https://github.com/junzengx14/turtlebot2iapp',
       image: turtlebotImage
-    },
-    {
-      title: 'Swolog: Fitness Tracker and Workout Log',
-      description: 'Swolog is a web application that serves as a fitness tracker and workout log.\
-       Users can create an account and log their workouts, view their previous workout history, and\
-        track their progress for different exercises using interactive charts.',
-      projectLink: 'https://swolog.fly.dev/',
-      demoLink: 'https://youtu.be/h45__GEFry0',
-      sourceCodeLink: 'https://github.com/jasonramirez0/Swolog',
-      image: swologDashboardImage
     },
     {
       title: 'Online Restricted Boltzmann Machines: Sequential learning for compact representations and prediction',
